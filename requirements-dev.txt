@@ -1,0 +1,5 @@
+click
+babel
+python-dotenv
+swinlnk
+pywin32

@@ -1,0 +1,35 @@
+# English (United States) translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-01-03 18:18+0900\n"
+"PO-Revision-Date: 2020-09-20 18:04+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_US\n"
+"Language-Team: en_US <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: plugin/ui.py:48 plugin/ui.py:56 plugin/ui.py:59
+msgid "DESCRIPTION_COMMAND_CLEAN"
+msgstr "Remove all files and folders on the desktop"
+
+#: plugin/ui.py:52 plugin/ui.py:63 plugin/ui.py:66
+msgid "DESCRIPTION_COMMAND_TRASH"
+msgstr "Move all files and folders on the desktop to the trash"
+
+#: plugin/ui.py:98
+msgid "MESSAGE_CLEAN_PROCESSED"
+msgstr "{} files and {} folderes processed"
+
+#: plugin/ui.py:103
+msgid "MESSAGE_CLEAN_ERROR_OCCURRED"
+msgstr "{} targets could not be processed"

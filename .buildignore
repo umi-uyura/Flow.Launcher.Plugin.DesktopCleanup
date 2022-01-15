@@ -1,0 +1,16 @@
+# folder
+.git/*
+.github/*
+.vscode/*
+.history/*
+*/__pycache__/*
+build/*
+.venv/*
+doc/*
+
+# file
+.gitignore
+.gitattributes
+.buildignore
+requirements-dev.txt
+test.py
