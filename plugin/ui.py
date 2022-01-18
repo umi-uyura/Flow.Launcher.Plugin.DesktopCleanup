@@ -44,25 +44,29 @@ class Main(FlowLauncher):
         q = param.strip()
 
         if len(q) == 0:
-            self.sendNormalMess(
+            self.sendActionMess(
                 "clean",
-                _l("DESCRIPTION_COMMAND_CLEAN")
+                _l("DESCRIPTION_COMMAND_CLEAN"),
+                "cleanup",
+                [["remove", _l("DESCRIPTION_COMMAND_CLEAN")]]
             )
-            self.sendNormalMess(
+            self.sendActionMess(
                 "trash",
-                _l("DESCRIPTION_COMMAND_TRASH")
+                _l("DESCRIPTION_COMMAND_TRASH"),
+                "cleanup",
+                [["trash", _l("DESCRIPTION_COMMAND_TRASH")]]
             )
         elif q == "clean":
             self.sendActionMess(
+                "clean",
                 _l("DESCRIPTION_COMMAND_CLEAN"),
-                "dc clean",
                 "cleanup",
                 [["remove", _l("DESCRIPTION_COMMAND_CLEAN")]]
             )
         elif q == "trash":
             self.sendActionMess(
+                "trash",
                 _l("DESCRIPTION_COMMAND_TRASH"),
-                "dc trash",
                 "cleanup",
                 [["trash", _l("DESCRIPTION_COMMAND_TRASH")]]
             )
