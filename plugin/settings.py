@@ -23,7 +23,7 @@ LOCAL = os.getenv("local", "en")
 # the information of package
 __app_name__ = "Desktop Cleanup"
 __package_name__ = "Flow.Launcher.Plugin.DesktopCleanup"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __short_description__ = "Clean files and folders on the desktop"
 GITHUB_USERNAME = "umi-uyura"
 
