@@ -5,6 +5,13 @@ Plugin for cleaning files and folders on your desktop for [Flow Launcher](https:
 
 ![](doc/example.gif)
 
+Install
+-------
+
+```
+pm install desktop cleanup
+```
+
 Usage
 -----
 
